@@ -25,20 +25,6 @@ The goal of this project is not just to review Java syntax, but to **practice wr
 
 ### 01 — Java Fundamentals
 
-* Variables and data types
-* Operators
-* Conditionals
-* Loops
-* Methods
-* Arrays
-* Classes and Objects
-* Constructors
-* `this`
-* `static`
-* `final`
-* Enums
-* Packages and imports
-
 ### 02 — Object-Oriented Programming
 
 * Encapsulation
