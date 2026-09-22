@@ -40,12 +40,10 @@ List / Set / Map overview, exercises and `equals()` / `hashCode()` — see
 
 ### 04 — Strings
 
+Immutability, StringBuilder/StringBuffer and exercises — see
+[`04-strings/README.md`](04-strings/README.md).
+
 * `String`
-* String immutability
-* String concatenation
-* `StringBuilder`
-* `StringBuffer`
-* `StringBuilder` vs `StringBuffer`
 
 ### 05 — Exception Handling
 
@@ -268,7 +266,7 @@ For each topic, I want to be able to answer three questions:
 * [x] Java Fundamentals
 * [x] Object-Oriented Programming
 * [x] Collections
-* [ ] Strings
+* [x] Strings
 * [ ] Exception Handling
 * [ ] Access Modifiers
 * [ ] Design Patterns
