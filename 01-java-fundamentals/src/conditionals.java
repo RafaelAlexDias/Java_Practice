@@ -1,6 +1,6 @@
-public class conditionals {
+public class Conditionals {
 
-    static void main () {
+    public static void main(String[] args) {
         int age = 22;
 
         if (age >= 18) {
