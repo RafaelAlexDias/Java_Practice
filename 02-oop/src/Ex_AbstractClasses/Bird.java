@@ -1,6 +1,6 @@
 package Ex_AbstractClasses;
 
-public class Bird extends Animal{
+public class Bird extends Animal {
 
     public Bird(String name, int age) {
         super(name, age);

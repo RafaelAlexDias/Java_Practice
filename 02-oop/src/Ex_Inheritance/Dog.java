@@ -6,6 +6,6 @@ public class Dog extends Animal {
     }
 
     public void bark() {
-        System.out.println("Roff");
+        System.out.println("Woof");
     }
 }

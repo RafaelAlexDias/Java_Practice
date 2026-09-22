@@ -29,17 +29,6 @@ The goal of this project is not just to review Java syntax, but to **practice wr
 
 ### 03 — Collections
 
-* `List`
-* `Set`
-* `Map`
-* `ArrayList`
-* `LinkedList`
-* `HashSet`
-* `TreeSet`
-* `HashMap`
-* `TreeMap`
-* Choosing the appropriate collection
-
 ### 04 — Strings
 
 * `String`
@@ -116,48 +105,20 @@ java-practice-lab/
 ├── README.md
 │
 ├── 01-java-fundamentals/
-│   ├── basics/
-│   ├── control-flow/
-│   ├── methods/
-│   └── classes-and-objects/
 │
 ├── 02-oop/
-│   ├── encapsulation/
-│   ├── inheritance/
-│   ├── polymorphism/
-│   ├── abstraction/
-│   └── interfaces/
 │
 ├── 03-collections/
-│   ├── lists/
-│   ├── sets/
-│   ├── maps/
-│   └── exercises/
 │
 ├── 04-strings/
-│   ├── string/
-│   ├── string-builder/
-│   ├── string-buffer/
-│   └── exercises/
 │
 ├── 05-exceptions/
-│   ├── checked/
-│   ├── unchecked/
-│   ├── custom-exceptions/
-│   └── exercises/
 │
 ├── 06-access-modifiers/
-│   └── exercises/
 │
 ├── 07-design-patterns/
-│   ├── singleton/
-│   ├── factory/
-│   └── facade/
 │
 └── 08-streams/
-    ├── basics/
-    ├── intermediate/
-    └── exercises/
 ```
 
 ---

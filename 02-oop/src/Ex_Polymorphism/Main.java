@@ -1,25 +1,25 @@
 package Ex_Polymorphism;
 
 /**
- * Exercise: Inheritance
+ * Exercise: Polymorphism
  *
- * Create a base Animal class with name and age, plus eat() and sleep() methods.
- * Then create Dog (bark) and Cat (meow) classes that inherit from Animal.
+ * Make Dog and Cat override makeSound() from Animal, then call makeSound()
+ * on every Animal through a single loop (dynamic dispatch):
+ * the JVM decides which version runs based on the actual object at runtime.
  */
 public class Main {
 
     public static void main(String[] args) {
-        Dog dog = new Dog("Camila", 5);
-        Cat cat = new Cat("Nicolau", 18);
+        Animal[] animals = {
+                new Dog("Camila", 5),
+                new Cat("Nicolau", 18)
+        };
 
-        dog.makeSound();
-        dog.eat();
-        dog.sleep();
-
-        System.out.println("---");
-
-        cat.makeSound();
-        cat.eat();
-        cat.sleep();
+        for (Animal animal : animals) {
+            animal.makeSound();
+            animal.eat();
+            animal.sleep();
+            System.out.println("---");
+        }
     }
 }
