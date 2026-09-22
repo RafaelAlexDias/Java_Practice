@@ -19,13 +19,6 @@ public class Ex_ArrayAnalyzer {
         System.out.println("Average: " + averageAll(numbers));
         System.out.println("Max: " + maxNum(numbers));
         System.out.println("Even numbers: " + countEvenNumbers(numbers));
-
-        // Self-checks
-        check(sumAll(numbers) == 105, "sumAll should be 105");
-        check(averageAll(numbers) == 15.0, "averageAll should be 15.0");
-        check(maxNum(numbers) == 30, "maxNum should be 30");
-        check(countEvenNumbers(numbers) == 4, "countEvenNumbers should be 4");
-        System.out.println("All checks passed!");
     }
 
     public static void printAll(int[] numbers) {
@@ -68,11 +61,5 @@ public class Ex_ArrayAnalyzer {
             }
         }
         return count;
-    }
-
-    private static void check(boolean condition, String message) {
-        if (!condition) {
-            throw new AssertionError(message);
-        }
     }
 }

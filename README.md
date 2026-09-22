@@ -27,15 +27,6 @@ The goal of this project is not just to review Java syntax, but to **practice wr
 
 ### 02 — Object-Oriented Programming
 
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Abstract classes
-* Interfaces
-* Composition
-* Abstract class vs Interface
-
 ### 03 — Collections
 
 * `List`
