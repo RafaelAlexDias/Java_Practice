@@ -9,7 +9,3 @@ Examples in `src/` (all in English):
 * Methods -> `Methods.java` (reference notes)
 * Exercise: Number Analyzer -> `Ex_NumberAnalyzer.java`
 * Exercise: Array Analyzer -> `Ex_ArrayAnalyzer.java`
-
-Still to cover: Arrays as a topic, Classes and Objects, Constructors, `this`,
-`static`, `final`, Enums, Packages and imports. (Classes/Constructors/`this` are
-covered from the OOP side in `../02-oop`.)
