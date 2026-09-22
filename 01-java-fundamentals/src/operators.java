@@ -1,3 +1,14 @@
+/**
+ * Operators
+ *
+ * What: symbols that perform calculations and comparisons between values.
+ * Why: operators let you combine data into expressions (math, comparisons, decisions).
+ * When: arithmetic for math, comparison + logical for conditions, ternary for simple
+ *      if/else shortcuts, compound assignment for accumulating values.
+ *
+ * Note: reference file — the arithmetic/comparison examples are fields, the runnable
+ * part is in main().
+ */
 public class Operators {
 
     // Arithmetic
@@ -22,17 +33,19 @@ public class Operators {
     boolean or = a > 5 || b > 10;   // true  (at least one side must be true)
     boolean not = !(a == b);        // true
 
-    // Assignment (compound), ternary -> need a block to run statements, so move to main
     public static void main(String[] args) {
+        // Assignment (compound), ternary -> need a block to run statements
+        int a = 10;
+        int b = 3;
+
         int counter = 10;
         counter += 5;   // same as counter = counter + 5 (15)
         counter -= 3;   // counter = counter - 3 (12)
         counter++;      // counter = counter + 1 (13)
         counter--;      // counter = counter - 1 (12)
+        System.out.println("counter = " + counter);
 
         // Ternary (shortcut for simple if/else)
-        int a = 10;
-        int b = 3;
         String message = (a > b) ? "a is bigger" : "b is bigger";
         System.out.println(message);
     }

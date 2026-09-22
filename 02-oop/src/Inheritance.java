@@ -1,5 +1,12 @@
-// Inheritance: a class can reuse and extend the fields and methods of another class.
-
+/**
+ * Inheritance
+ *
+ * What: a class (subclass) reuses and extends the fields and methods of another
+ *      class (superclass) with the `extends` keyword.
+ * Why: share common behaviour and avoid duplication.
+ * When: you have an "is-a" relationship (Dog IS an Animal) and several classes
+ *      share code — prefer composition when the relationship is "has-a".
+ */
 public class Inheritance {
 
     public static void main(String[] args) {

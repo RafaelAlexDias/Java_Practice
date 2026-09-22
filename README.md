@@ -25,9 +25,18 @@ The goal of this project is not just to review Java syntax, but to **practice wr
 
 ### 01 — Java Fundamentals
 
+Variables, operators, conditionals, loops, methods + two exercises — see
+[`01-java-fundamentals/README.md`](01-java-fundamentals/README.md).
+
 ### 02 — Object-Oriented Programming
 
+Classes/Objects, Constructors, Encapsulation, Inheritance, Polymorphism,
+Abstract classes, Interfaces, Composition — see [`02-oop/README.md`](02-oop/README.md).
+
 ### 03 — Collections
+
+List / Set / Map overview, exercises and `equals()` / `hashCode()` — see
+[`03-collections/README.md`](03-collections/README.md).
 
 ### 04 — Strings
 
@@ -94,32 +103,6 @@ Each pattern will be explored through:
 * Method references
 * Lambdas
 * Stream pipelines
-
----
-
-## 🗂️ Repository Structure
-
-```text
-java-practice-lab/
-│
-├── README.md
-│
-├── 01-java-fundamentals/
-│
-├── 02-oop/
-│
-├── 03-collections/
-│
-├── 04-strings/
-│
-├── 05-exceptions/
-│
-├── 06-access-modifiers/
-│
-├── 07-design-patterns/
-│
-└── 08-streams/
-```
 
 ---
 
@@ -282,9 +265,9 @@ For each topic, I want to be able to answer three questions:
 
 ## 🚀 Progress
 
-* [ ] Java Fundamentals
-* [ ] Object-Oriented Programming
-* [ ] Collections
+* [x] Java Fundamentals
+* [x] Object-Oriented Programming
+* [x] Collections
 * [ ] Strings
 * [ ] Exception Handling
 * [ ] Access Modifiers

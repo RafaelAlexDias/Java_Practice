@@ -1,3 +1,14 @@
+/**
+ * Loops
+ *
+ * What: blocks that repeat while a condition holds.
+ * Why: iterate over data or repeat a task without writing the code again.
+ * When:
+ *  - for:       fixed/repeatable number of iterations
+ *  - while:     iterate while a condition is true (may run zero times)
+ *  - do-while:  always runs at least once
+ *  - for-each:  clean way to walk arrays/collections
+ */
 public class Loops {
 
     public static void main(String[] args) {

@@ -1,6 +1,15 @@
+/**
+ * Methods
+ *
+ * What: a method is a reusable block of code:
+ *      (modifiers) returnType name(parameters) { body }
+ * Why: avoid repeating code, split logic into named units, easier to test.
+ * When: any logic you call more than once or want to give a clear name to.
+ *
+ * Note: reference file — no main(), so it is not runnable on its own.
+ */
 public class Methods {
 
-    // A method is a reusable block of code: (modifiers) returnType name(params) { ... }
     public int add(int a, int b) {
         return a + b;
     }

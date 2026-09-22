@@ -1,3 +1,13 @@
+/**
+ * Variables and data types
+ *
+ * What: variables store values; each one has a declared type.
+ * Why: Java is statically typed, so the compiler checks types before the program runs.
+ * When: choose the smallest type that fits your data (byte/short for memory, int by
+ *      default, long for big numbers, double for decimals).
+ *
+ * Note: reference file — it is not meant to be run.
+ */
 public class Variables {
 
     // In Java, we have some primitive variable types:

@@ -1,5 +1,11 @@
-// A class is a blueprint. An object is an instance of that class.
-
+/**
+ * Classes and Objects
+ *
+ * What: a class is a blueprint; an object is an instance created from that blueprint
+ *      (with the `new` keyword).
+ * Why: classes group state (fields) and behaviour (methods) into one structure.
+ * When: any time you model something that has data and behaviour together.
+ */
 public class ClassesAndObjects {
 
     public static void main(String[] args) {

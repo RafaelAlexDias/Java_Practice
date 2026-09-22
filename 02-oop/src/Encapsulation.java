@@ -1,5 +1,10 @@
-// Encapsulation: keep fields private and expose them through methods.
-
+/**
+ * Encapsulation
+ *
+ * What: keep fields private and expose them through public methods.
+ * Why: protects internal state — nobody can put invalid data directly in a field.
+ * When: whenever you want to control how data is read and changed (getters/setters).
+ */
 public class Encapsulation {
 
     public static void main(String[] args) {
