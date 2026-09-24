@@ -33,8 +33,20 @@ public class StreamBasics {
         *
         * forEach() -> Performs an action for each element in the stream.
         *
+        * count() -> Returns the number of elements in the stream.
         *
-         */
+        * anyMatch() -> Returns true if any element in the stream satisfies a given condition.
+        *
+        * allMatch() -> Returns true if all elements in the stream satisfy a given condition.
+        *
+        * findFirst() -> Returns the first element in the stream that satisfies a given condition.
+        *
+        * findAny() -> Returns any element in the stream that satisfies a given condition.
+        *
+        * collect() -> Collects the elements in the stream into a collection.
+        *
+        * groupingBy() -> Groups the elements in the stream based on a given function.
+        */
 
         names.stream()
                 .filter(name -> name.length() > 4)
