@@ -43,29 +43,14 @@ List / Set / Map overview, exercises and `equals()` / `hashCode()` — see
 Immutability, StringBuilder/StringBuffer and exercises — see
 [`04-strings/README.md`](04-strings/README.md).
 
-* `String`
-
 ### 05 — Exception Handling
 
-* `try`
-* `catch`
-* `finally`
-* `throw`
-* `throws`
-* Checked exceptions
-* Unchecked exceptions
-* `RuntimeException`
-* Custom exceptions
-* Exception hierarchy
+try/catch/finally, throw/throws, checked/unchecked and a custom exception
+exercise — see [`05-exceptions/README.md`](05-exceptions/README.md).
 
 ### 06 — Access Modifiers
 
-* `public`
-* `protected`
-* Package-private
-* `private`
-* Encapsulation
-* Visibility between classes and packages
+`public` / `protected` / package-private / `private` — see [`06-access-modifiers/README.md`](06-access-modifiers/README.md).
 
 ### 07 — Design Patterns
 
@@ -267,7 +252,7 @@ For each topic, I want to be able to answer three questions:
 * [x] Object-Oriented Programming
 * [x] Collections
 * [x] Strings
-* [ ] Exception Handling
+* [x] Exception Handling
 * [ ] Access Modifiers
 * [ ] Design Patterns
 * [ ] Java Streams
