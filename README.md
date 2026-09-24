@@ -15,7 +15,7 @@ The goal of this project is not just to review Java syntax, but to **practice wr
 * Review Java's access modifiers and encapsulation
 * Understand `String` immutability and mutable string alternatives
 * Learn and implement common Design Patterns
-* Practice the Java Stream API
+* Practice the Java StreamBasics API
 * Write clean, readable, and maintainable Java code
 * Build practical examples that can be discussed in technical interviews
 
@@ -85,7 +85,7 @@ Each pattern will be explored through:
 * `findFirst()`
 * Method references
 * Lambdas
-* Stream pipelines
+* StreamBasics pipelines
 
 ---
 
@@ -209,10 +209,10 @@ Examples:
 
 ### Streams
 
-* What is a Stream?
+* What is a StreamBasics?
 * What is the difference between `map()` and `filter()`?
 * What is `reduce()` used for?
-* What is the difference between a Stream and a Collection?
+* What is the difference between a StreamBasics and a Collection?
 
 ---
 
