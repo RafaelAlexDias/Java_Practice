@@ -57,41 +57,10 @@ exercise — see [`05-exceptions/README.md`](05-exceptions/README.md).
 Singleton, Factory and Facade with code examples and interview questions —
 see [`07-design-patterns/README.md`](07-design-patterns/README.md).
 
-* Singleton
-* Factory
-* Facade
-
-Each pattern is explored through:
-
-1. The problem it solves
-2. The underlying concept
-3. A simple implementation
-4. A practical example
-5. Trade-offs and common use cases
-
 ### 08 — Java Streams
 
 Basics, exercises and interview questions — see
 [`08-streams/README.md`](08-streams/README.md).
-
-* Creating streams
-* `filter()`
-* `map()`
-* `sorted()`
-* `distinct()`
-* `limit()`
-* `skip()`
-* `forEach()`
-* `collect()`
-* `groupingBy()`
-* `reduce()`
-* `count()`
-* `anyMatch()`
-* `allMatch()`
-* `findFirst()`
-* Method references
-* Lambdas
-* StreamBasics pipelines
 
 ---
 
