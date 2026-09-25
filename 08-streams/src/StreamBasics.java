@@ -46,6 +46,10 @@ public class StreamBasics {
         * collect() -> Collects the elements in the stream into a collection.
         *
         * groupingBy() -> Groups the elements in the stream based on a given function.
+        *
+        * reduce() -> Combines various elements into one result.
+        *
+        *
         */
 
         names.stream()
