@@ -191,36 +191,6 @@ Examples:
 
 ---
 
-## 🛠️ Approach
-
-The repository follows a practical learning approach:
-
-```text
-Learn
-  ↓
-Understand
-  ↓
-Implement
-  ↓
-Solve an exercise
-  ↓
-Refactor
-  ↓
-Explain
-```
-
-The objective is to avoid simply memorizing Java concepts.
-
-For each topic, I want to be able to answer three questions:
-
-> **What is it?**
-
-> **Why does it exist?**
-
-> **When would I use it?**
-
----
-
 ## 🚀 Progress
 
 * [x] Java Fundamentals
@@ -228,7 +198,7 @@ For each topic, I want to be able to answer three questions:
 * [x] Collections
 * [x] Strings
 * [x] Exception Handling
-* [ ] Access Modifiers
+* [x] Access Modifiers
 * [x] Design Patterns
 * [x] Java Streams
 
