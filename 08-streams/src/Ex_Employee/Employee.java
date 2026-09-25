@@ -1,5 +1,6 @@
 package Ex_Employee;
 
+/** Simple model class used by the streams exercises. */
 public class Employee {
 
     private String name;

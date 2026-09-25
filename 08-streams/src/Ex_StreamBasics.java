@@ -1,5 +1,12 @@
 import java.util.List;
 
+/**
+ * Exercise: Stream basics
+ *
+ * Apply the basic intermediate operations to a list of numbers:
+ * filter (even, greater than 10), map (times 2), sorted, distinct, limit and skip,
+ * and finish with forEach.
+ */
 public class Ex_StreamBasics {
 
     public static void main(String[] args) {

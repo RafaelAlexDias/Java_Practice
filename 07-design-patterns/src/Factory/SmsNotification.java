@@ -1,5 +1,6 @@
 package Factory;
 
+/** SmsNotification: a concrete Notification created by NotificationFactory. */
 public class SmsNotification implements Notification {
 
     @Override

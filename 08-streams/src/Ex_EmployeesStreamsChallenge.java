@@ -3,6 +3,12 @@ import Ex_Employee.Employee;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Exercise: Employees streams challenge
+ *
+ * A practical pipeline on a list of Employee objects:
+ * filter by department and salary, map to names, reduce salaries and findFirst.
+ */
 public class Ex_EmployeesStreamsChallenge {
 
     public static void main(String[] args) {

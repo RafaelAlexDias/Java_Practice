@@ -1,5 +1,13 @@
 import java.util.List;
 
+/**
+ * Stream basics
+ *
+ * What: a Stream is a lazy sequence of elements that supports functional-style
+ * operations (filter, map, sorted, collect).
+ * Why: readable, concise pipelines over collections instead of manual loops.
+ * When: transforming or querying data in one go.
+ */
 public class StreamBasics {
 
     public static void main(String[] args) {
@@ -52,12 +60,11 @@ public class StreamBasics {
         *
         */
 
-        names.stream()
+        List<String> result = names.stream()
                 .filter(name -> name.length() > 4)
                 .map(String::toUpperCase)
                 .toList();
 
-
-
+        System.out.println(result);
     }
 }

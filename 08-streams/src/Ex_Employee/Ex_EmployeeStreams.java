@@ -5,6 +5,12 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * Exercise: Employee streams
+ *
+ * Assignments with employees: filter by salary, map to names (uppercase),
+ * reduce total salaries, anyMatch, findFirst and groupingBy department.
+ */
 public class Ex_EmployeeStreams {
 
     public static void main(String[] args) {

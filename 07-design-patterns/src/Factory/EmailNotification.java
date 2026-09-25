@@ -1,5 +1,6 @@
 package Factory;
 
+/** EmailNotification: a concrete Notification created by NotificationFactory. */
 public class EmailNotification implements Notification {
 
     @Override

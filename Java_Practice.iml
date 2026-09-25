@@ -10,7 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/05-exceptions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06-access-modifiers/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08-streams/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/07-design patterns/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07-design-patterns/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -3,6 +3,12 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * Exercise: Stream basics 2
+ *
+ * Use terminal and short-circuit operations: count, anyMatch, allMatch, findFirst,
+ * and groupBy names by their first letter.
+ */
 public class Ex_StreamBasics2 {
 
     public static void main(String[] args) {
