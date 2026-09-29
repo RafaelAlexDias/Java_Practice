@@ -11,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/06-access-modifiers/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08-streams/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/07-design-patterns/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/01-library-management/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/02-banking-system/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/03-notification-system/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
