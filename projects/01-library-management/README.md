@@ -20,10 +20,3 @@ Practical project that puts together classes, OOP, custom checked exceptions and
 | `src/library/Main.java` | Demo of the whole flow |
 | `src/exceptions/BookNotFoundException.java` | Checked exception for missing books |
 | `src/exceptions/BookAlreadyAvailableException.java` | Checked exception for double returns |
-
-## How to run
-
-```powershell
-& "C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\jbr\bin\javac.exe" -encoding UTF-8 -d out src/library/*.java src/exceptions/*.java
-& "C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\jbr\bin\java.exe" -cp out library.Main
-```
