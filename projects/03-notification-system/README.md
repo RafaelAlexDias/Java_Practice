@@ -18,12 +18,3 @@ Practical project applying the **Factory** design pattern to notification channe
 | `src/PushNotification.java` | Concrete push channel |
 | `src/NotificationFactory.java` | Factory creating the right implementation |
 | `src/Main.java` | Demo using the factory |
-
-## How to run
-
-```powershell
-& "C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\jbr\bin\javac.exe" -encoding UTF-8 -d out src/*.java
-& "C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\jbr\bin\java.exe" -cp out notifications.Main
-```
-
-Compare with the Factory example in `07-design-patterns`.
