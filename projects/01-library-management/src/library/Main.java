@@ -1,8 +1,16 @@
+package library;
+
 import exceptions.BookAlreadyAvailableException;
 import exceptions.BookNotFoundException;
 
 import java.util.List;
 
+/**
+ * Library Management demo.
+ *
+ * Walks through the main features: add books, search by author, borrow/return
+ * (including the exception path) and statistics via LibraryStatistics.
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -34,6 +42,9 @@ public class Main {
         );
 
         try {
+            // The second borrow of "Dune" only prints "already borrowed"
+            // (borrow() is lenient); returning an available book throws,
+            // which is why the second return is caught below.
             library.borrowBook("Dune");
             library.borrowBook("Dune");
 

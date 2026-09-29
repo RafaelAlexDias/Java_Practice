@@ -1,7 +1,13 @@
+package library;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * Read-only statistics over a Library, built with the Stream API:
+ * counts (total/available/borrowed) and grouping (by genre and by author).
+ */
 public class LibraryStatistics {
 
     public long getTotalBooks(Library library) {

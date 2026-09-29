@@ -1,3 +1,5 @@
+package library;
+
 import exceptions.BookAlreadyAvailableException;
 import exceptions.BookNotFoundException;
 
@@ -5,6 +7,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * In-memory "database" of books.
+ *
+ * Wraps a List<Book> and exposes the operations a library needs: add/remove,
+ * find, borrow/return (with exceptions), search/filter (streams) and sorting.
+ */
 public class Library {
 
     private final List<Book> bookList = new ArrayList<>();
@@ -25,6 +33,7 @@ public class Library {
         System.out.println("That book is not in the library.");
     }
 
+    // Returns null if not found — matching by title, first occurrence.
     public Book findBook(String title) {
         for (Book book : bookList) {
             if (book.getTitle().equals(title)) {
@@ -45,6 +54,7 @@ public class Library {
         }
     }
 
+    // Borrow = the Book state flips to unavailable via book.borrow().
     public void borrowBook(String title) throws BookNotFoundException {
         for (Book book : bookList) {
             if (book.getTitle().equals(title)) {
@@ -73,6 +83,7 @@ public class Library {
         );
     }
 
+    // Streams: keep only the books whose author matches.
     public List<Book> searchByAuthor(String author) {
         return bookList.stream()
                 .filter(book -> book.getAuthor().equals(author))
@@ -85,12 +96,14 @@ public class Library {
                 .toList();
     }
 
+    // Sorts the internal list by title.
     public void sortBooks() {
         bookList.sort(
                 Comparator.comparing(Book::getTitle)
         );
     }
 
+    // Defensive copy: callers can read but not modify the internal list.
     public List<Book> getBooks() {
         return List.copyOf(bookList);
     }

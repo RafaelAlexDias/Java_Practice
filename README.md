@@ -204,9 +204,9 @@ Examples:
 
 ### Practical Projects
 
-* [ ] Library Management System
+* [x] Library Management System
 * [ ] Banking System
-* [ ] Notification System
+* [x] Notification System
 
 ---
 
